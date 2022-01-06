@@ -15,27 +15,93 @@ body {
     background: #f7b600;
     padding: 15px;
     text-align: center;
+
 }
 
 #area-logo, #area-menu {
     padding: 15px;
 }
 
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
+
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+
+h2 {
+    color: #f7b600;
+}
+
+/* Layout Lateral */
+
+#area-lateral h2 {
+    background: #ccc;
+    color: #fff;
+}
+
+#conteudo-lateral hr {
+    color: #ccc;
+}
+
+#conteudo-lateral a {
+    display: block;
+    padding: 3px;
+}
+
 /* Formatação menu */
 
-a:link, a:visited {
+a {
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
     color: #FFF;
     text-decoration: none;
     padding: 8px 12px;
     font-size: 16px;
-
 }
 
-a:hover {
+#area-cabecalho a:hover {
     background: #FFF;
     color: #f7b600;
 
 }
+
+a:link, a:visited {
+    color: #f7b600;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* Formatações gerais */
 
@@ -46,4 +112,12 @@ h1 {
 
 span {
     color: #ffff;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.8em;
+    color: #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
