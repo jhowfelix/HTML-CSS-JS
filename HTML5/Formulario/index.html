@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h2>Login</h2>
+    <form action="#">
+        Login:<br>
+        <input type="text" name="login"> <br>
+
+        Password: <br>
+        <input type="password" name="password">
+        <br>
+        <input type="button" value="LOGAR">
+        <!--O atributo name é utilizado para api pegar os dados.-->
+        <!--Submit para "enviar", diferente do button.-->
+    </form>
+
+    <h2>Cadastre-se</h2>
+    <form action="">
+        Login:<br>
+        <input type="text" name="login"> <br>
+        Password: <br>
+        <input type="password" name="password"> <br>
+        Email: <br>
+        <input type="text" name="email"> <br>
+        SEXO: <br>
+        <input type="radio" name="sexo" value="M">Masculino
+        <input type="radio" name="sexo" value="F">Feminino <br><br>
+
+        INTERESSES<br>
+        <input type="checkbox">Filmes <br>
+        <input type="checkbox">Games <br>
+        <input type="checkbox">Esportes <br>
+        <input type="checkbox">Dev <br>
+
+        <br>
+        <select name="gostos" id="">
+            <option value="Filmes">Filmes</option>
+            <option value="Jogos">Jogos</option>
+            <option value="Musicas">Musicas</option>
+            <option value="Programação">Programação</option>
+            <option value="Esportes">Esportes</option>
+        </select>
+        <br>
+        Observações: <br>
+        <textarea name="text-area"></textarea>
+        <br>
+        <button type="submit">CADASTRAR</button>
+    </form>
+</body>
+
+</html>

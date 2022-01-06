@@ -1,0 +1,42 @@
+#principal {
+    width: 900px;
+    height: 500px;
+}
+
+.conteudo h2 {
+    color: #9e9e8f;
+    width: 900px;
+
+}
+
+.fotos {
+    border: 10px solid #dbdbc9;
+
+}
+
+body {
+    background: #d2d2c1 url(./img/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#navBar {
+    background: #c5c5b2;
+    padding: 18px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.conteudo {
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+#rodape {
+    text-align: center;
+}

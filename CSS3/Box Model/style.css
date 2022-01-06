@@ -1,0 +1,25 @@
+.conteudo {
+    border: 2px solid red;
+    width: 150px;
+   
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+    /* Somente o padding segue a ordem a cima */
+    padding: 20px;
+    margin: 20px;
+}
+
+.conteudo2 {
+    border: 2px solid red;
+    width: 150px;
+   
+    /* padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px; */
+    /* Somente o padding segue a ordem a cima */
+    padding: 20px;
+    margin: 20px;
+}
