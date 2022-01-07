@@ -1,0 +1,9 @@
+/* Heranca e especificidade */
+
+body {
+    color: red;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Em caso de seletores iguais, sempre a ultima vai ser considerada. */

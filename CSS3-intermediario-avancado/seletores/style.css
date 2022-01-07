@@ -1,0 +1,26 @@
+/* * {
+    Seletor universal, seleciona tudo 
+    border: 1px solid red;
+} */
+
+/* Seletores de texto */
+/* h1 {
+    color: green;
+} */
+
+/* Seletores de classe */
+.verde {
+    color: green;
+}
+
+/* Seletores em id */
+#cabecalho {
+    border: 1px solid blue;
+}
+
+/* Seletores filho */
+/* Selecionando um elemento a que é filho de LI */
+li>a {
+    color: brown;
+}
+
